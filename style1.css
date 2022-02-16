@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Wallpoet&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    
+    display: flex;
+    background-attachment: fixed;
+}
+
+#navbar1{
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 5px 5px 20px rgb(0, 0, .5);
+    background-color: rgb(7, 7, 161);
+}
+
+.hov:hover{
+    background-color: rgb(19, 18, 18);
+}
+
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(/pics/hip_hop_main.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+.find{
+    
+    color: red;
+    font-weight:bolder;
+    font-size: 160px;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-family: 'Bebas Neue', cursive;
+    /*font-family: 'Wallpoet', cursive;*/
+    letter-spacing: 10px;
+    text-shadow: 8px 8px black;
+}
+.best{
+    
+    color: red;
+    font-weight:bolder;
+    font-size: 100px;
+    padding-top: 100px;
+    padding-left: 50px;
+    font-family: 'Bebas Neue', cursive;
+    /*font-family: 'Wallpoet', cursive;*/
+    letter-spacing: 10px;
+    text-shadow: 5px 5px black;
+}
+.para{
+    font-size: 35px;
+    padding-left: 50px;
+    padding-top: 40px;
+}
+.disc{
+    font-size: 40px;
+    width: 100%;
+    padding-top: 40px;
+}
+.card1{
+    height: 300px
+}
+
+.card,.card1{
+border-radius: 20px;
+}
+
+.genre{
+    font-size: 100px;
+    
+}
+#genre1{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(/pics/backgrnd2.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#artist1{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(/pics/blue-space-3.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#about{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(pics/universe.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+
+.head1{
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(192, 4, 4);
+    font-size: 80px;
+    text-shadow: 4px 4px black;
+    visibility: hidden;
+    transition: transform .1s;
+}
+
+.head1 h1{
+    opacity: 0;
+    transform: scale(10);
+    transition: all 0.3s ease-in-out 0.2s
+}
+
+
+
+.card:hover .head1{
+    visibility: visible;
+}
+
+
+/*.banner {
+    position: relative;
+    height:auto;
+    width:100%;
+    overflow: hidden;
+}
+.videobcg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+    filter: blur(4px);
+    
+}
+*/
+
+
+
+#genre1,#artist1{
+    position: relative;
+    height:100%;
+    width:100%;
+    overflow: hidden;
+    
+}
+
+.head1:hover{
+    transform: scale(1.5);
+}
+
+.bi{
+    font-size: 25px;
+    white-space: pre;
+   
+}
+#fb{
+    color: white;
+}
+#fb:hover{
+    color: #4267B2;
+}
+#insta{
+    color: white;
+}
+#insta:hover{
+    color: #8a3ab9;
+}
+#twitt{
+    color:white;
+}
+#twitt:hover{
+    color: #1DA1F2;
+}
+
+
+
+@media screen and (max-width:576px) {
+    .find{
+        font-size: 100px;
+    }
+    .best{
+        font-size: 50px;
+    }
+    #banner{
+        height: auto;
+    }
+    .para{
+        font-size: 20px;
+        
+    }
+    .disc{
+        font-size: 30px;
+        
+    }
+}

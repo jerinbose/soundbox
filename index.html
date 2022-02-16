@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOUNDBOX</title>
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="icon" href="/pics/cropped-JB-Icon.png" type="image/icon type">
+
+</head>
+<body>
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg navbar-light px-5 navbar-scroll" id="navbar1">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white fw-bold fs-3" href="https://www.instagram.com/jerin.bose/" target="_blank">SOUNDBOX</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#genre1">Genre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#artist1">Artists</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Help
+                </a>
+                <ul class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                  <li><a class="hov dropdown-item text-white" href="#">What is SOUNDBOX</a></li>
+                  <li><a class="hov dropdown-item text-white" href="#">Pricing & Plans</a></li>
+                  <li><hr class="hov dropdown-divider text-white"></li>
+                  <li><a class="hov dropdown-item text-white" href="#">Get Help</a></li>
+                  <li><a class="hov dropdown-item text-white" href="#about">About Us</a></li>
+
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex">
+                <span class="pe-3"><button class="btn btn-primary" type="submit" style="width: auto; height: 40px;">Log In</button></span>
+              <button class="btn btn-success" type="submit" style="width: auto; height: 40px;">Sign Up</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!--Home page-->
+
+      <section class="image-blurred-edge" id="home">
+        <h1 class="find">FIND YOUR<br>MUSIC</h1>
+
+
+      </section>
+
+
+      <!--Genre-->
+      
+      <section id="genre1">
+
+     <!--  <video class="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+          <source src="/videos/genre_bg.mp4" type="video/mp4">
+          
+               Sorry, your browser does not support HTML5 video.
+         </video>
+        -->
+        <div class="container">
+            <br><br><br>
+            <h1 class="genre text-center fw-bold text-white">Genre</h1><br>
+            <div class="row">
+                <div class="col-md-4 ">
+                    <div class="card" >
+                        <a href="#">
+                        <img src="/pics/hip_hop_card1.jpg" class="card1 card-img-top" alt="hiphop">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">HIP HOP</h1>
+                        </div>
+                        </a>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" >
+                        <a href="#">
+                        <img src="/pics/pop_card.jpeg" class="card1 card-img-top" alt="pop">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">POP</h1>
+                        </div>
+                        </a>
+                      </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card" >
+                        <a href="#">
+                        <img src="/pics/techno2.jpg" class="card1 card-img-top" alt="techno">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">TECHNO</h1>
+                        </div>
+                        </a>
+                      </div>
+                </div>
+
+            </div>
+
+
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#">
+                        <img src="/pics/rock1.jpg" class="card1 card-img-top " alt="rock">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">ROCK</h1>
+                        </div>
+                        </a>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" >
+                        <a href="#">
+                        <img src="/pics/metal-covers-header.png" class="card1 card-img-top" alt="heavymetal">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">METAL</h1>
+                        </div>
+                        </a>
+                      </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#">
+                        <img src="/pics/Armin-van-Buuren-Rukes-1-1000x640.jpg" class="card1 card-img-top" alt="trance">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">TRANCE</h1>
+                        </div>
+                        </a>
+                      </div>
+                </div>
+
+            </div><br>
+
+            <!--------Collapse More-------->
+            <center>
+            <p>
+              <a id="more" class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                More
+              </a>
+              
+            </p>
+            </center>
+            <div class="collapse" id="collapseExample">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 ">
+                      <div class="card" >
+                          <a href="#">
+                          <img src="/pics/rock.jpg" class="card1 card-img-top" alt="r&b">
+                          <div class="card-img-overlay">
+                              <h1 class="head1">R&B</h1>
+                          </div>
+                          </a>
+                        </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card" >
+                          <a href="#">
+                          <img src="/pics/dance.jpg" class="card1 card-img-top" alt="soul">
+                          <div class="card-img-overlay">
+                              <h1 class="head1">soul</h1>
+                          </div>
+                          </a>
+                        </div>
+                      
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card" >
+                          <a href="#">
+                          <img src="/pics/jazz.jpeg" class="card1 card-img-top" alt="jazz">
+                          <div class="card-img-overlay">
+                              <h1 class="head1">jazz</h1>
+                          </div>
+                          </a>
+                        </div>
+                  </div>
+  
+              </div>
+  
+  
+              <br>
+              <div class="row">
+                  <div class="col-md-4">
+                      <div class="card">
+                          <a href="#">
+                          <img src="/pics/blue-space-3.jpg" class="card1 card-img-top " alt="cosmic">
+                          <div class="card-img-overlay">
+                              <h1 class="head1">COSMIC</h1>
+                          </div>
+                          </a>
+                        </div>
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card" >
+                          <a href="#">
+                          <img src="/pics/blues.jpg" class="card1 card-img-top" alt="blues">
+                          <div class="card-img-overlay">
+                              <h1 class="head1">Blues</h1>
+                          </div>
+                          </a>
+                        </div>
+                      
+                  </div>
+                  <div class="col-md-4">
+                      <div class="card">
+                          <a href="#">
+                          <img src="/pics/linkinpark.jpg" class="card1 card-img-top" alt="band">
+                          <div class="card-img-overlay">
+                              <h1 class="head1">Band</h1>
+                          </div>
+                          </a>
+                        </div>
+                  </div>
+  
+              </div>
+              </div>
+            </div>
+            
+            <br>
+        </div>
+
+      </section>
+
+
+
+
+      <!--------------Artists------------->
+      
+      
+      <section id="artist1">
+     <!--   <video class="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+          <source src="/videos/artist_bg.mp4" type="video/mp4">
+          
+               Sorry, your browser does not support HTML5 video.
+         </video>
+        -->
+        <div class="container">
+            
+            <br><br><br>
+            <h1 class="genre text-center fw-bold text-white">TOP ARTISTS</h1><br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <a href="#">
+                        <img src="/pics/zayn1.jpg" class="card1 card-img-top " alt="zayn">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">ZAYN</h1>
+                        </div>
+                        </a>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" >
+                        <a href="#">
+                        <img src="/pics/ariana.png" class="card1 card-img-top" alt="ariana">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">ARIANA</h1>
+                        </div>
+                        </a>
+                      </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card" >
+                        <a href="#">
+                        <img src="/pics/the_weeknd.jpg" class="card1 card-img-top" alt="weeknd">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">WEEKND</h1>
+                        </div>
+                        </a>
+                      </div>
+                    
+                </div>
+
+            </div>
+
+
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card " >
+                        <a href="#">
+                        <img src="/pics/harry.jpg" class="card1 card-img-top " alt="harry">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">HARRY</h1>
+                        </div>
+                        </a>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card" >
+                        <a href="#">
+                        <img src="/pics/bruno.jpg" class="card1 card-img-top" alt="bruno">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">MARS</h1>
+                        </div>
+                        </a>
+                      </div>
+                    
+                </div>
+                <div class="col-md-4">
+                    <div class="card" >
+                        <a href="#">
+                        <img src="/pics/travis.jpeg" class="card1 card-img-top" alt="travis">
+                        <div class="card-img-overlay">
+                            <h1 class="head1">TRAVIS</h1>
+                        </div>
+                        </a>
+                      </div>
+                </div>
+
+            </div>
+
+
+            
+            <br><br> 
+        </div>
+
+      </section>
+      
+
+      <!--------------about------------->
+
+        
+
+        <section id="about" class="banner">
+          <!--  <video class="videobcg" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+              <source src="/videos/about_bg.mp4" type="video/mp4">
+              
+                   Sorry, your browser does not support HTML5 video.
+             </video>
+            -->
+             <div class="container-fluid">
+                <h1 class="best">Clearly the best sound.</h1>
+                <p class="para text-white">With our lossless audio experience and high-fidelity sound quality,<br>stream music like you've never heard it before. No compromises.<br>Just pure sound.</p>
+
+                <p class="disc text-white text-center">Discover, stream, and share a constantly expanding mix of music from emerging and major artists around the world.</p>
+                <br>
+                <center>
+                  <br>
+                  <label class="text-white">Follow Us On:</label><br>
+                <a href="#"><i id="fb" class="bi bi-facebook me-3"></i></a>
+                <a href="https://www.instagram.com/jerin.bose/" target="_blank"><i id="insta" class="bi bi-instagram me-3"></i></a>
+                <a href="https://twitter.com/JerinBose" target="_blank"><i id="twitt" class="bi bi-twitter"></i></a>
+                </center>
+                <br>
+            </div>
+            
+          </section>
+          
+          <footer class="text-center text-white bg-dark">&copy; Copyright 2022 @jerin.bose </footer>
+          
+
+          <!--Other-->
+
+          
+          
+
+        
+
+    
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="/js/bootstrap.js"></script>
+</body>
+</html>
