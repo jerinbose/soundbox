@@ -28,7 +28,7 @@ section{
 }
 
 #home{
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(https://img.wallpapersafari.com/desktop/1440/900/19/96/Mctel3.jpg);
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(https://github.com/jerinbose/soundbox/blob/main/pics/hip_hop_main.jpg?raw=true);
     background-size: cover;
     background-position: center;
     flex-direction: column;
@@ -81,19 +81,19 @@ border-radius: 20px;
     
 }
 #genre1{
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(/pics/backgrnd2.jpg);
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(https://github.com/jerinbose/soundbox/blob/main/pics/backgrnd2.jpg?raw=true);
     background-size: cover;
     background-position: center;
     flex-direction: column;
 }
 #artist1{
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(/pics/blue-space-3.jpg);
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(https://github.com/jerinbose/soundbox/blob/main/pics/blue-space-3.jpg?raw=true);
     background-size: cover;
     background-position: center;
     flex-direction: column;
 }
 #about{
-    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(pics/universe.jpg);
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)),url(https://github.com/jerinbose/soundbox/blob/main/pics/universe.jpg?raw=true);
     background-size: cover;
     background-position: center;
     flex-direction: column;
